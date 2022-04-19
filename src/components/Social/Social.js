@@ -29,8 +29,8 @@ const Social = ({ mobile }) => {
         return (
             <div className={classes.mobileWrapper}>
                 
-                <IconBtn icon={Instagram} m={1} href="https://www.instagram.com/mehdibha/" />
-                <IconBtn icon={LinkedIn} m={1} href="https://www.linkedin.com/in/mehdi-ben-hadj-ali-6a7435131/" />
+                <IconBtn icon={Instagram} m={1} href="https://www.instagram.com/mathijs.vangortel/" />
+                <IconBtn icon={LinkedIn} m={1} href="https://nl.linkedin.com/in/mathijs-van-gortel-6a73b7206/" />
                 <IconBtn icon={Email} m={1} href="mailto:nielsvangortel@gmail.com" />
             </div>
         );
@@ -39,10 +39,10 @@ const Social = ({ mobile }) => {
             <motion.div className={classes.wrapper}>
                
                 <motion.div animate={controls} custom={1}>
-                    <IconBtn icon={Instagram} m={1} href="" />
+                    <IconBtn icon={Instagram} m={1} href="https://www.instagram.com/mathijs.vangortel/" />
                 </motion.div>
                 <motion.div animate={controls} custom={2}>
-                    <IconBtn icon={LinkedIn} m={1} href="" />
+                    <IconBtn icon={LinkedIn} m={1} href="https://nl.linkedin.com/in/mathijs-van-gortel-6a73b7206/" />
                 </motion.div>
                 <motion.div animate={controls} custom={3}>
                     <IconBtn icon={Email} m={1} href="mailto:nielsvangortel@gmail.com" />
